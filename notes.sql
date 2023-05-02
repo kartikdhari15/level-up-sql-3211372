@@ -24,3 +24,5 @@ order by Type;
 select Type,Name,Price,Description from Dishes
 where Type!='Beverage'
 order by Type;
+
+insert into Customers values(101,'Henry','Ford', 'asmith@samoca.org', '479 Lapis Dr.', 'Memphis', 'TN', '555-555-1212', '1973-07-21',30);
