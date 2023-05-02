@@ -28,3 +28,5 @@ order by Type;
 insert into Customers values(101,'Henry','Ford', 'asmith@samoca.org', '479 Lapis Dr.', 'Memphis', 'TN', '555-555-1212', '1973-07-21',30);
 
 UPDATE Customers set Address='New Address' where CustomerID=101;
+
+DELETE from Customers where CustomerID=64;
