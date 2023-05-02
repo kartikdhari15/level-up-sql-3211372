@@ -9,3 +9,7 @@ SELECT * FROM Dishes;
 SELECT * FROM Customers;
 
 select FirstName,LastName,Email from Customers order by LastName;
+
+create table Anniversary(
+CustomerID integer,
+PartySize integer);
