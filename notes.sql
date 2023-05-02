@@ -30,3 +30,4 @@ insert into Customers values(101,'Henry','Ford', 'asmith@samoca.org', '479 Lapis
 UPDATE Customers set Address='New Address' where CustomerID=101;
 
 DELETE from Customers where CustomerID=64;
+DELETE FROM Reservations WHERE ReservationID = 2000;
